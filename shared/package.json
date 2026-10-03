@@ -1,0 +1,16 @@
+{
+  "name": "@hera/shared",
+  "version": "1.0.0",
+  "description": "Shared types and schemas for HERA",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}

@@ -1,0 +1,17 @@
+HERA Gemini AI setup
+
+1. Create a Gemini API key in Google AI Studio.
+2. Open the project root .env file.
+3. Set:
+   GEMINI_API_KEY=YOUR_KEY_HERE
+   GEMINI_MODEL=gemini-3.8-flash
+4. Restart the backend (npm run dev).
+5. Submit a new complaint or click Re-run analysis on an existing complaint.
+
+Do not commit or share the API key.
+
+
+Troubleshooting:
+- Put GEMINI_API_KEY=YOUR_REAL_KEY in the project-root .env file. GOOGLE_API_KEY is also accepted.
+- Restart npm run dev after editing .env.
+- The server logs the exact Gemini HTTP/API error if the key, model, quota, or response is invalid.

@@ -1,0 +1,2 @@
+Login page removed as requested. Other project features were left unchanged.
+If the app has server-side authentication that is required for API access, that authentication was not intentionally removed.
