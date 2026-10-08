@@ -50,4 +50,17 @@ Complaint is resolved
         ↓
 Student confirms resolution
         ↓
-Feedback & analytics are updated
+Feedback & analytics are updated 
+
+steps to run this project
+
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd HERA-main
+npm install
+Copy-Item .env.example .env
+notepad .env
+Get-Service MongoDB
+Start-Service MongoDB
+npm run seed
+npm run test:gemini --workspace=server
+npm run dev
